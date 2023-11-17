@@ -35,7 +35,7 @@ const App = () => {
         <tbody>
           {people.length === 0 ? (
             <tr>
-              <td colSpan="4" className="no-data">No Data Found to Display.</td>
+              <td colSpan="4" className="no-data">No data found to display.</td>
             </tr>
           ) : (
             people.map((person, index) => (

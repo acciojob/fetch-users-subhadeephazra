@@ -21,7 +21,7 @@ const App = () => {
     <div>
       <header className="navbar">
         <h1>Blue Whales</h1>
-        <button onClick={fetchdata}>Get User List</button>
+        <button className="btn" onClick={fetchdata}>Get User List</button>
       </header>
       <table className="tablehead">
         <thead>
